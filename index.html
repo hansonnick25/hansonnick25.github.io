@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- Title -->
-    <section id="title">
+    <div id="title">
       <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -52,11 +52,11 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li> -->
               <li class="nav-item">
-                  <a class="nav-link" href="#resume">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+                <a class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -68,64 +68,91 @@
             </ul>
           </div>
         </nav>
-    </section>
-        <!-- Title -->
-        <section id="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h1>Nick Hanson</h1>
-                        <h3>QA Engineer & Web Developer</h3>
-                    </div>
-                    <div class="col-lg-4">
-                        <img class="title-logo" src="images/logo.png" alt="logo" />
-                    </div>
-                </div>
+      </div>
+      <!-- Title -->
+      <div id="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-8">
+              <h1>Nick Hanson</h1>
+              <h3>QA Engineer & Web Developer</h3>
             </div>
+            <div class="col-lg-4">
+              <img class="title-logo" src="images/logo.png" alt="logo" />
+            </div>
+          </div>
         </div>
-        </section>
-        
-        <!-- Call to Action -->
-        <section id="cta">
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div id="cta">
       <h3 class="heading">Hire Me to Create and/or QA Your Website Today!</h3>
-    </section>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <div class="heading-text">
+            <p>
+              Well, that's certainly good to know. Fear is the true enemy, the
+              only enemy. Yes, absolutely, I do indeed concur, wholeheartedly!
+              They were just sucked into space. My oath is between Captain
+              Kargan and myself. Your only concern is with how you obey my
+              orders. Or do you prefer the rank of prisoner to that of
+              lieutenant? Sorry, Data. Some days you get the bear, and some days
+              the bear gets you.Maybe if we felt any human loss as keenly as we
+              feel one of those close to us, human history would be far less
+              bloody. Our neural pathways have become accustomed to your sensory
+              input patterns. When has justice ever been as simple as a rule
+              book? Travel time to the nearest starbase? I suggest you drop it,
+              Mr. Data. A surprise party? Mr. Worf, I hate surprise parties. I
+              would *never* do that to you. I'll alert the crew. Mr. Worf, you
+              do remember how to fire phasers?
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
 
     <!-- Resume -->
-    <section id="resume">
-        <h3 class="heading">Resume</h3>
-        <row>
-            <div class="col-lg-12">
-                <iframe src="/pdf/ResumeNickHanson.pdf"></iframe>
-            </div>
-        </row>
-      </section>
+    <div id="resume">
+      <h3 class="heading">Resume</h3>
+      <row>
+        <div class="col-lg-12">
+          <iframe src="/pdf/ResumeNickHanson.pdf"></iframe>
+        </div>
+      </row>
+    </div>
 
-      <!-- Contact -->
-      <section id="contact">
-        <h3 class="heading">Contact</h3>
-        <div class="row">
-            <div class="col-lg-3">
-            </div>
-            <div class="col-lg-6">
-                <div class ="contact-info">
-                    <h4>My Contact Information</h4>
-                        <p>Nick Hanson</p>
-                        <p>Cell: (636)699-6921</p>
-                        <p>Email: hansonnick25@gmail.com</p>
-                    </div>
-                    </div>
-                    
-            </div>
+    <!-- Contact -->
+    <div id="contact">
+      <h3 class="heading">Contact</h3>
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div class="contact-info">
+            <h4>My Contact Information</h4>
+            <p>Nick Hanson</p>
+            <p>Cell: (636)699-6921</p>
+            <p>Email: hansonnick25@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>
 
-        <form action="mailto:hansonnick25@gmail.com" method="post" enctype="text/plain">
-            <label>Your Name: </label>
-            <input type="text"  name="" value=""><br>
-            <label>Your Email:</label>
-            <input type="email" name="" value=""><br>
-            <label>Your Message:</label>
-            <textarea name="name" rows="10" cols="30"></textarea><br>
-            <input type="submit" name="">
-        </form>
-      </section>
+      <form
+        action="mailto:hansonnick25@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label>Your Name: </label>
+        <input type="text" name="" value="" /><br />
+        <label>Your Email:</label>
+        <input type="email" name="" value="" /><br />
+        <label>Your Message:</label>
+        <textarea name="message" rows="10" cols="30"></textarea><br />
+        <input type="submit" name="" />
+      </form>
+    </div>
   </body>
 </html>
