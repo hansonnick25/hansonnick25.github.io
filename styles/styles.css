@@ -97,6 +97,10 @@ h3 {
   padding: 7% 15%;
 }
 
+.contact-info {
+  text-align: left;
+}
+
 /* Footer Section */
 #footer {
   padding: 7% 15%;
