@@ -9,7 +9,13 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.title-section {
+  padding-bottom: 2%;
 }
 
 h1 {
@@ -58,12 +64,11 @@ h3 {
 #content {
   background-color: #f1faee;
   color: #1d3557;
-  /* padding: 50px 0px 0px 200px; */
 }
 
 /* Title Section */
 .title-logo {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   width: 70%;
 }
 
@@ -72,13 +77,21 @@ h3 {
   background-color: #f1faee;
   text-align: center;
   color: #1d3557;
-  padding: 7% 15%;
+  padding-top: 0%;
+  padding-right: 15%;
+  padding-bottom: 0px;
+  padding-left: 15%;
+}
+
+.cta-text {
+  padding-top: 5%;
+  padding-left: 10%;
 }
 
 .heading {
   font-family: "Montserrat";
   font-weight: 900;
-  line-height: 1.5;
+  line-height: 2.5;
 }
 
 .heading-text {
@@ -90,7 +103,7 @@ h3 {
   background-color: #f1faee;
   text-align: center;
   color: #1d3557;
-  padding: 7% 15%;
+  padding: 1% 15% 0;
 }
 
 /* Contact Section */
@@ -98,7 +111,7 @@ h3 {
   background-color: #f1faee;
   text-align: center;
   color: #1d3557;
-  padding: 7% 15%;
+  padding: 1% 15% 5%;
 }
 
 .contact-info {
